@@ -6,33 +6,33 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #1db954, #191414); /* Spotify-like gradient */
-  font-family: 'Montserrat', sans-serif; /* Modern font */
+  background: linear-gradient(135deg, #1db954, #191414); 
+  font-family: 'Montserrat', sans-serif; 
 }
 
-/* Main music player container */
+
 .musicPlayer {
-  background: #191414; /* Dark background */
+  background: #191414; 
   padding: 40px;
   border-radius: 20px;
   width: 450px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); 
   text-align: center;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
 .musicPlayer:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7); /* Hover shadow effect */
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7); 
 }
 
 .musicPlayer h2 {
   font-size: 1.7em;
-  color: #1db954; /* Spotify green */
+  color: #1db954; 
   margin-bottom: 15px;
 }
 
-/* Custom audio player style */
+
 audio {
   width: 100%;
   margin-top: 15px;
@@ -41,7 +41,7 @@ audio {
   background: #333;
 }
 
-/* Control buttons styling */
+
 .controls {
   margin-top: 20px;
 }
@@ -54,18 +54,18 @@ audio {
   cursor: pointer;
   color: white;
   font-size: 16px;
-  border-radius: 50px; /* Rounded buttons */
+  border-radius: 50px; 
   transition: background-color 0.3s;
 }
 
 .controls button:hover {
-  background: #1ed760; /* Lighter green on hover */
+  background: #1ed760; 
 }
 
-/* Toggle buttons for showing/hiding sections */
+
 .button-group {
   display: flex;
-  justify-content: space-between; /* Moves buttons to the left and right */
+  justify-content: space-between; 
   margin-top: 20px;
 }
 
@@ -79,16 +79,16 @@ audio {
   font-size: 16px;
   border-radius: 50px;
   transition: background-color 0.3s;
-  flex: 1; /* Makes both buttons take equal width */
-  margin: 0 10px; /* Adds space between the buttons */
+  flex: 1; 
+  margin: 0 10px;
 }
 
 .toggle-add-to-playlist:hover,
 .toggle-playlist:hover {
-  background: #282828; /* Slightly lighter gray on hover */
+  background: #282828; 
 }
 
-/* Track list and playlist styling */
+
 .track-list,
 .playlist {
   margin-top: 20px;
@@ -116,21 +116,21 @@ audio {
 }
 
 .track-item:hover {
-  background: #444; /* Lighten background on hover */
+  background: #444; 
 }
 
 .track-item span {
-  color: #1db954; /* Highlighted text */
+  color: #1db954; 
 }
 
-/* Add to Playlist button inside track list */
+
 .track-item button {
   background: #1db954;
   border: none;
   padding: 5px 15px;
   cursor: pointer;
   color: white;
-  border-radius: 30px; /* Rounded buttons */
+  border-radius: 30px;
   transition: background-color 0.3s;
 }
 
@@ -138,7 +138,7 @@ audio {
   background: #1ed760;
 }
 
-/* Playlist styling */
+
 .playlist ul {
   list-style: none;
   padding: 0;
