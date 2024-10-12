@@ -52,11 +52,11 @@ function MusicPlayer() {
     };
 
     const togglePlaylistVisibility = () => {
-        setPlaylistVisible(!playlistVisible); // Toggle playlist visibility
+        setPlaylistVisible(!playlistVisible); 
     };
 
     const toggleAddToPlaylistVisibility = () => {
-        setAddToPlaylistVisible(!addToPlaylistVisible); // Toggle add to playlist visibility
+        setAddToPlaylistVisible(!addToPlaylistVisible); 
     };
 
     React.useEffect(() => {
@@ -77,12 +77,12 @@ function MusicPlayer() {
                 <button onClick={playNextSong}>⏭️ Next</button>
             </div>
 
-            {/* Toggle Add to Playlist Button */}
+            
             <button className="toggle-add-to-playlist" onClick={toggleAddToPlaylistVisibility}>
                 {addToPlaylistVisible ? '🔽 Hide Add to Playlist' : 'Add to Playlist +'}
             </button>
 
-            {/* Add to Playlist Section */}
+           
             {addToPlaylistVisible && (
                 <div className="track-list">
                     <h3>All Songs</h3>
@@ -95,12 +95,12 @@ function MusicPlayer() {
                 </div>
             )}
 
-            {/* Toggle Playlist Button */}
+           
             <button className="toggle-playlist" onClick={togglePlaylistVisibility}>
                 {playlistVisible ? '🔽 Hide Playlist' : 'Show Playlist'}
             </button>
 
-            {/* Playlist Section */}
+            
             {playlistVisible && (
                 <div className="playlist">
                     <h3>Your Playlist</h3>
